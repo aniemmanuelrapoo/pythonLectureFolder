@@ -9,7 +9,7 @@ from time import time
 # Pip module
 from camelcase import CamelCase
 
-# Import custom module
+# Import custom modules
 import validator
 from validator import validate_email
 
@@ -19,6 +19,7 @@ timestamp = time()
 
 c = CamelCase()
 # print(c.hump('hello there world'))
+
 
 email = 'test#test.com'
 if validate_email(email):
