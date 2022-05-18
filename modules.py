@@ -21,8 +21,8 @@ c = CamelCase()
 # print(c.hump('hello there world'))
 
 
-# email = 'test#test.com'
-# if validate_email(email):
-#   print('Email is valid')
-# else:
-#   print('Email is bad')
+email = 'test#test.com'
+if validate_email(email):
+  print('Email is valid')
+else:
+  print('Email is bad')
